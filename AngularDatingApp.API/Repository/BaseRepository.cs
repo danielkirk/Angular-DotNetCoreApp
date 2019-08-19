@@ -12,5 +12,7 @@ namespace AngularDatingApp.API.Repository
 
         public async Task CreateAsync(TEntity entity)
         => await _context.Set<TEntity>().AddAsync(entity);
+
+
     }
 }
