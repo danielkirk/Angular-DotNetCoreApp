@@ -1,3 +1,4 @@
+using AngularDatingApp.API.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace AngularDatingApp.API
@@ -8,5 +9,6 @@ namespace AngularDatingApp.API
         {
 
         }
+        public DbSet<Test> Tests { get; set; }
     }
 }
